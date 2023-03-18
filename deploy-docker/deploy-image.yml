@@ -6,3 +6,8 @@
       docker_image:
         name: shmfaraz15/mini-project
         source: pull
+    - name: Start terminal on remote machine
+      shell:
+      args:
+        cmd: DISPLAY=:0 nohup gnome-terminal </dev/null >/dev/null 2>&1 &
+        executable: /bin/bash
