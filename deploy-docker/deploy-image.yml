@@ -9,5 +9,5 @@
     - name: Start terminal on remote machine
       shell:
       args:
-        cmd: DISPLAY=:0 nohup gnome-terminal </dev/null >/dev/null 2>&1 &
+        cmd: DISPLAY=:0 nohup gnome-terminal
         executable: /bin/bash
