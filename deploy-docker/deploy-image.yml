@@ -7,9 +7,9 @@
         name: shmfaraz15/mini-project
         source: pull
 
-    - name: starting docker container
-      command: docker run -it -d shmfaraz15/mini-project
-#
+#    - name: starting docker container
+#      command: docker run -it -d shmfaraz15/mini-project
+##
 #    - name: Execute commands in docker container
 #      command: docker exec -it user33 bash -c 'echo "Hello remote machine"'
 #    - name: Start terminal on remote machine
